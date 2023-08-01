@@ -48,3 +48,9 @@ body > div {
 .home {
   background-color: bisque;
 }
+
+.joke {
+  background-color: beige;
+  flex-direction: column;
+  padding: 20%;
+}
