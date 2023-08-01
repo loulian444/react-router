@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "@mui/material/Button";
 
 const ChuckNorrisJokes = () => {
   const url = "https://api.chucknorris.io/jokes/random";
@@ -10,7 +11,7 @@ const ChuckNorrisJokes = () => {
       const response = await fetch(url);
       const data = await response.json();
 
-      setJoke(data.value)
+      setJoke(data.value);
     } catch (error) {
       console.error(error);
     }
@@ -20,7 +21,9 @@ const ChuckNorrisJokes = () => {
     <div className="joke" id="chuckNorrisJokes">
       {joke && <p>{joke}</p>}
 
-      <button onClick={fetchJoke}>Click me</button>
+      <Button variant="contained" color="success" onClick={fetchJoke}>
+        Chuck one daddy
+      </Button>
     </div>
   );
 };

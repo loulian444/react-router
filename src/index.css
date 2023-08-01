@@ -20,7 +20,7 @@ body > div {
 }
 
 #navbar {
-  padding: 2em;
+  padding: 20px;
   justify-content: space-evenly;
 }
 
@@ -47,6 +47,11 @@ body > div {
 
 .home {
   background-color: bisque;
+  flex-direction: column;
+}
+
+.home > h1 {
+  margin: 20px;
 }
 
 .joke {
@@ -58,7 +63,7 @@ body > div {
 
 .joke > p {
   margin: 20px;
-  background-color: aliceblue;
+  background-color: beige;
   padding: 10px;
 }
 
