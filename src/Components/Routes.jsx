@@ -3,6 +3,7 @@ import Blue from "./Blue.jsx";
 import Red from "./Red.jsx";
 import Home from "./Home.jsx";
 import DadJokes from "./DadJokes.jsx";
+import ChuckNorrisJokes from "./ChuckNorrisJokes.jsx";
 
 const RouteSection = () => {
   return (
@@ -12,6 +13,7 @@ const RouteSection = () => {
         <Route path="/blue" element={<Blue />} />
         <Route path="/red" element={<Red />} />
         <Route path="/joke" element={<DadJokes />} />
+        <Route path="/chuckNorrisJoke" element={<ChuckNorrisJokes />} />
       </Routes>
     </div>
   );

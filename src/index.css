@@ -58,4 +58,13 @@ body > div {
 
 .joke > p {
   margin: 20px;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+#chuckNorrisJokes {
+  background-image: url("./Components/images/desktop-wallpaper-chuck-norris1.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
