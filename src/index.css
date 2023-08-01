@@ -53,4 +53,9 @@ body > div {
   background-color: beige;
   flex-direction: column;
   padding: 20%;
+  text-align: center;
+}
+
+.joke > p {
+  margin: 20px;
 }
